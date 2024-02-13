@@ -36,7 +36,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "LebenCMS API", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "CleanArchitecture API", Version = "v1" });
 
     c.MapType<String>(() => new OpenApiSchema { Type = "string", Nullable = true });
     c.MapType<int>(() => new OpenApiSchema { Type = "integer", Nullable = true });
